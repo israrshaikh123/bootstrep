@@ -1,0 +1,239 @@
+/* Existing styles remain above this */
+
+/* ========== Responsive Design Enhancements ========== */
+@media (max-width: 991px) {
+  .custom-navbar {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .hero-section .veg-left,
+  .hero-section .veg-right,
+  .banner-style-four .thumb::after {
+    display: none !important;
+  }
+
+  .hero-section h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .cheese-burger-p,
+  .purchase-label {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .custom-btn-corner {
+    margin: 0 auto;
+  }
+
+  .banner-style-four .thumb {
+    margin-top: 2rem;
+  }
+
+  .banner-style-four .thumb img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .pizza-card,
+  .burger-card,
+  .crabs-card {
+    width: 100% !important;
+    height: auto !important;
+    margin: 1.5rem auto !important;
+    position: relative !important;
+  }
+
+  .crabs-card {
+    margin-top: 1rem !important;
+    right: auto !important;
+  }
+
+  .pizza-btn,
+  .crabs-card .btn {
+    position: relative;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  .limited-offer-section .textured-text {
+    font-size: 2.5rem;
+  }
+
+  .best-deals .card {
+    height: auto;
+  }
+
+  .testimonial-section p.lead {
+    font-size: 1.2rem;
+  }
+
+  .chef-card-hover .card-body h5 {
+    font-size: 1rem;
+  }
+
+  .footer-link {
+    font-size: 0.9rem;
+  }
+
+  footer .btn {
+    width: 100%;
+  }
+
+  footer .container .row > div {
+    text-align: center;
+  }
+
+  footer .text-center.text-white-50.small.mt-3 {
+    text-align: center;
+  }
+
+  footer .col-lg-3,
+  footer .col-lg-4,
+  footer .col-lg-2,
+  footer .col-lg-4 ul,
+  footer .col-lg-3 ul {
+    text-align: center !important;
+  }
+
+  footer .col-lg-4 ul li,
+  footer .col-lg-3 ul li,
+  footer .col-lg-4 span,
+  footer .col-lg-4 a,
+  footer .col-lg-3 span,
+  footer .col-lg-3 a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .col-lg-4 i,
+  footer .col-lg-3 i {
+    margin: 0 auto 0.5rem auto;
+    display: block;
+    text-align: center;
+    float: none !important;
+  }
+
+  footer .d-flex.gap-3 {
+    justify-content: center !important;
+  }
+
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .discount-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .textured-text {
+    font-size: 2rem;
+  }
+
+  .menu-arrow-img {
+    display: none;
+  }
+
+  .time-box {
+    min-width: 60px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .footer-link,
+  .footer .text-white-50 {
+    font-size: 0.85rem;
+  }
+
+  .rotate-left,
+  .rotate-right {
+    width: 100px !important;
+  }
+
+  .best-deals .row.g-4 .col-md-6.col-lg-3:last-child {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .crabs-card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  footer .col-lg-3 h5,
+  footer .col-lg-4 h5 {
+    margin-top: 2rem;
+  }
+
+  footer .col-lg-4 ul,
+  footer .col-lg-3 ul,
+  footer .col-lg-4,
+  footer .col-lg-3,
+  footer .col-lg-2 {
+    text-align: center !important;
+  }
+
+  footer .col-lg-4 ul li,
+  footer .col-lg-3 ul li,
+  footer .col-lg-4 span,
+  footer .col-lg-4 a,
+  footer .col-lg-3 span,
+  footer .col-lg-3 a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .col-lg-4 i,
+  footer .col-lg-3 i {
+    margin: 0 auto 0.5rem auto;
+    display: block;
+    text-align: center;
+    float: none !important;
+  }
+
+  footer .d-flex.gap-3 {
+    justify-content: center !important;
+  }
+
+  .discount-badge {
+    display: none;
+  }
+  .hero-section .custom-btn-corner{
+    display: none;
+  }
+}
