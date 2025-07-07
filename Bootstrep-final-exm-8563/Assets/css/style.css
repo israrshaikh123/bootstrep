@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "oswald";
+}
+body {
+  font-family: "jost", sans-serif;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+body {
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+}
+.card.gradient-purple {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.card.gradient-teal {
+  background: linear-gradient(135deg, #1de9b6, #1dc4e9);
+  color: white;
+}
+
+.card.gradient-orange {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: white;
+}
+
+.card.gradient-purple a,
+.card.gradient-teal a,
+.card.gradient-orange a {
+  color: white;
+}
+.card.bg-soft-blue {
+    background-color: #e3f2fd; /* Light Blue */
+}
+
+.card.bg-soft-green {
+    background-color: #e8f5e9; /* Light Green */
+}
+
+.card.bg-soft-yellow {
+    background-color: #fffde7; /* Light Yellow */
+}
